@@ -48,7 +48,7 @@
   "Syntax highlighting for Cedar mode.")
 
 ;;;###autoload
-(define-derived-mode cedar-mode fundamental-mode "Cedar"
+(define-derived-mode cedar-mode prog-mode "Cedar"
   "Major mode for editing Cedar policy language files."
   :syntax-table cedar-mode-syntax-table
   (setq-local comment-start "// ")
