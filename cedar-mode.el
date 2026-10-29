@@ -40,10 +40,10 @@
      . font-lock-variable-name-face)
     
     ;; Strings
-    '("\".*?\"" . font-lock-string-face)
+    ("\".*?\"" . font-lock-string-face)
     
     ;; Comments
-    '("//.*$" . font-lock-comment-face)
+    ("//.*$" . font-lock-comment-face)
   )
   "Syntax highlighting for Cedar mode.")
 
